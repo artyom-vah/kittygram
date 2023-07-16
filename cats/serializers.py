@@ -25,8 +25,7 @@ class CatSerializer(serializers.ModelSerializer):
 
     class Meta:
         model = Cat
-        fields = ('id', 'name', 'color', 'birth_year', 'owner',
-                  'achievements')
+        fields = ('id', 'name', 'color', 'birth_year', 'owner', 'achievements')
 
     def create(self, validated_data):
         # Если в исходном запросе не было поля achievements

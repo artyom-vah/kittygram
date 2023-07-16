@@ -5,10 +5,36 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9946c316-71b5-4755-8553-c8ddc0ea010d" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/kittygram.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/kittygram.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cats/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/cats/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cats/migrations/0001_initial.py" beforeDir="false" afterPath="$PROJECT_DIR$/cats/migrations/0001_initial.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cats/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/cats/models.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cats/serializers.py" beforeDir="false" afterPath="$PROJECT_DIR$/cats/serializers.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cats/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/cats/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kittygram/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/kittygram/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kittygram" beforeDir="false" afterPath="$PROJECT_DIR$/kittygram" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kittygram/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kittygram/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kittygram/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kittygram/cats/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kittygram/cats/apps.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kittygram/cats/migrations/0001_initial.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kittygram/cats/migrations/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kittygram/cats/models.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kittygram/cats/serializers.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kittygram/cats/views.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kittygram/kittygram/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kittygram/kittygram/asgi.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kittygram/kittygram/settings.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kittygram/kittygram/urls.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kittygram/kittygram/wsgi.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kittygram/manage.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kittygram/requirements.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,13 +52,14 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "D:/Dev/kittygram_plus"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/Dev/PUBLIC_REP/kittygram&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;terminal&quot;
   }
-}]]></component>
+}</component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">

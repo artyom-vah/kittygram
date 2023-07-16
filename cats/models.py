@@ -1,15 +1,7 @@
 from django.db import models
 
-CHOICES = (
-    ('Gray', 'Серый'),
-    ('Black', 'Чёрный'),
-    ('White', 'Белый'),
-    ('Ginger', 'Рыжий'),
-    ('Mixed', 'Смешанный'),
-)
-
-
 class Achievement(models.Model):
+    '''модель достижений котиков'''
     name = models.CharField(max_length=64)
 
     def __str__(self):
@@ -17,6 +9,7 @@ class Achievement(models.Model):
 
 
 class Owner(models.Model):
+    '''модель хозяинов котиков'''
     first_name = models.CharField(max_length=128)
     last_name = models.CharField(max_length=128)
 
@@ -25,14 +18,13 @@ class Owner(models.Model):
 
 
 class Cat(models.Model):
+    '''модель котиков'''
     name = models.CharField(max_length=16)
     color = models.CharField(max_length=16)
     birth_year = models.IntegerField()
-    owner = models.ForeignKey(
-        Owner, related_name='cats', on_delete=models.CASCADE)
+    owner = models.ForeignKey(Owner, related_name='cats', on_delete=models.CASCADE)
     # Связь будет описана через вспомогательную модель AchievementCat
-    achievements = models.ManyToManyField(
-        Achievement, through='AchievementCat')
+    achievements = models.ManyToManyField(Achievement, through='AchievementCat')
 
     def __str__(self):
         return self.name
@@ -40,6 +32,7 @@ class Cat(models.Model):
 
 # В этой модели будут связаны id котика и id его достижения
 class AchievementCat(models.Model):
+    '''вспомогательная модель для связи м-to-м '''
     achievement = models.ForeignKey(Achievement, on_delete=models.CASCADE)
     cat = models.ForeignKey(Cat, on_delete=models.CASCADE)
 
